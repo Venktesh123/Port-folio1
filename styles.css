@@ -1,0 +1,335 @@
+body
+{
+	margin: 0px;
+}
+
+#body-header
+{
+	height: 65vh;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	opacity: 0.8;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* list is list of navigation elements*/
+.list
+{
+	padding: 0px;
+	list-style: none;
+
+}
+.list li
+{
+	display: inline-block;
+	color: white;
+	margin: 20px 8px 8px 0px;
+	
+}
+.para
+{
+	color:blue;
+	text-align: center;
+}
+
+.list li a{
+	color: white;
+	text-decoration: none;
+	transition: 0.5s,border-bottom 4s;
+}
+/* nav-menu is the list of social icons*/
+.nav-menu li a{
+	transition: 0.5s ,border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+	color: red;
+	border-bottom: 1px solid white;
+}
+.text-center
+{
+	text-align: center;
+}
+.social-acions
+{
+	margin-top: 20vh;
+}
+.social-acions li a i{
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 50%;
+}
+#Name
+{
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	margin-bottom: 0.1rem;
+
+}
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+
+}
+/* resume about section */
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.para{
+	color: grey;
+	font-size: 20px;
+	margin: 20px;
+	text-align:justify;
+	
+}
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+/* skills section */
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n+1)
+{
+	background-color: white;
+}
+section:nth-child(2n)
+{
+	background-color: white;
+}
+
+.section-heading
+{
+width: auto;
+padding: 20px 10px 10px;
+font-weight: 400;
+}
+
+.section-heading span 
+{
+font-size: 40px;
+color: #2857a4;
+display: inline-block;
+padding-top: 10px;
+margin-right:0.5rem;
+}
+
+.skill-display
+{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.skill-progress
+{
+	height:1.4rem;
+	width:7rem;
+	background-color:lightgrey;
+	border-radius:0.8rem;
+}
+.mb-blue
+{
+	background-color: #2857a4;
+}
+.eightyfive
+{
+	width:85%;
+	height:inherit;
+}
+.mb-blue1
+{
+	background-color: red;
+}
+
+.mb-blue2
+{
+	background-color: cyan;
+}
+.mb-blue3
+{
+	background-color: orange;
+}
+.mb-blue4
+{
+	background-color:pink;
+}
+.skill-name span
+{
+	color:white;
+	font-size:1rem;
+	margin-left: 10px;
+
+}
+.skill-progress>div{
+	border-radius: 20px 0px 0px 20px;
+}
+/*portfoli section*/
+.portfolio-icon
+{
+	font-weight: 400;
+	margin-top:60px;
+}
+.portfolio-icon span{
+	font-size:40px;
+	color:#2857a4;
+
+}
+/*.portfolio-image
+{
+	background-image: url(Web devlopment/Picture/images.jpg);
+}*/
+.image-parameter
+{
+	height: 12rem;
+	width: 12rem;
+	margin-right: 10rem;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+.image-manage
+{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+/*work experinc*/
+.work-exp span
+{
+	color:#2857a4;
+	font-size:30px;
+
+}
+.time-line
+{
+	position: relative;
+	width: 75%;
+	border:2px solid black;
+}
+.time-line-box
+{
+	position:relative;
+	width: 40%;
+	margin:5px;
+	left: 5%;
+	min-height: 150px;
+	border: 2px solid black;
+}
+.time-line-box:nth-child(2n)
+{
+	left:53%;
+}
+.time-line-box:nth-child(2n+1)::after
+{
+	content:'';
+	position:absolute;
+	top:30%;
+	right:-13%;
+	border-radius:50%;
+	width:0.5rem;
+	height:0.5rem;
+	background-color: red;
+	z-index: 1;
+
+}
+.time-line-box:nth-child(2n)::after
+{
+	content:'';
+	position:absolute;
+	top:30%;
+	left:-9%;
+	border-radius:50%;
+	width:0.5rem;
+	height:0.5rem;
+	background-color: red;
+	z-index: 1;
+
+}
+
+.timeline-divider
+{
+	position:absolute;
+	width:0;
+	height:75%;
+	border:3px dashed #0096fa6b;
+	left: 50%;
+	top:5%;
+}
+.timeline-traveler
+{
+	top: 25%;
+	position:sticky;
+	transform:rotate(90deg);
+	z-index:2;
+
+}
+/*Education section*/
+.Education-hat span
+{
+	color:#2857a4;
+	font-size:30px;
+
+}
+  
+
+ .timeline-traveler1
+ {
+     top: 25%;
+	position:sticky;
+	transform:rotate(-90deg);
+    z-index:2;
+}
+/* contact section */
+#contact
+{
+	height:75%;
+	width:75%;
+	margin:auto;
+	background:linear-gradient(blue,#1a237e);
+	margin-top:40px;
+}
+.contact-icon span
+{
+	color:white;
+}
+.contact-comment
+{
+	color:white;
+	width:200px;
+}
+#contacts_b
+{
+    margin-left:30%;
+    margin-right:30%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+#white1 h1,p{
+  color:white;
+ 
+}
+#wh{
+	color:white;
+}
+#ican ul li i{
+color:white;
+}
+
